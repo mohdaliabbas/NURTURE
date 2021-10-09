@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali's fitness</title>
+    <link rel="stylesheet" href="/css_jsevents.css">
+    <link rel="stylesheet" href="/public/css_jsevents.css">
+    <style>
+        /* <style> */
+body {
+    background-color: aqua;
+    /* border: 2px solid red; */
+    font-family: cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('boxer-1984344_1920.jpg'); */
+    /* height:45px; */
+
+}
+
+.left {
+    border: 5px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 22px;
+    margin: 18px;
+    border-radius: 10px;
+}
+
+.left img {
+    width: 10px;
+    /* border: 2px solid red; */
+    /* filter: invert(80%); */
+}
+
+.left div {
+    /* background-color: aliceblue; */
+    text-align: center;
+    line-height: 200x;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width:70%;
+    margin: 3px auto;
+    /* z-index: 100px; */
+
+}
+h1{
+    position:relative;
+}
+h3{
+    /* background-color:red; */
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    margin: 2px;
+}
+.center{
+    /* border: 2px solid red; */
+    display:flex;
+    position:absolute;
+    top: 500px;
+    right:50px;
+    left: 700px;
+}
+.navbar{
+    /* width: 1000px; */
+    /* height: 10px; */
+    /* background-color: aliceblue; */
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a{
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+        .navbar li a:hover{
+            /* border: 2px solid red; */
+            background-color: red;
+        }
+        .body{
+            background-image: url(/public/boxer-1984344_1920.jpg);
+        }
+        h1{
+            position: relative;
+            /* background-color: red; */
+            height: 10px;
+            width: 270px;
+            margin: 100px;
+            padding: 0px;
+            /* border: 2px solid red; */
+        }
+        #h{
+            /* display: flex; */
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid blue;
+            /* background-color: aliceblue; */
+        }
+        #h:hover{
+            background-color: rgb(168, 164, 164);
+        }
+        /* #left{
+            position: relative;
+            left: 800px ; */
+            /* display: list-item; */
+            /* border: 2px solid violet;
+            width: 100px;
+        } */
+        #left{
+            background-image: url(/public/boxer-1984344_1920.jpg);
+            position: relative;
+            left: 800px ;
+            /* position: relative; */
+                position: absolute;
+                background-color:lightblue;
+                margin-top: 10px;
+                border: 2px solid blue;
+                height: 300px;
+                padding: 50px;
+                position: center;
+                cursor: alias;
+                width: 250px;
+                /* margin:20px; */
+            }
+            .s1{
+                background-color: transparent;
+                background-color: aqua;
+                /* position: left; */
+                width: 250px;
+                display: flex;
+                margin:10px;
+                height: 300px;
+                border-left:6 px solid red ;
+            }
+            .s2{
+                background-color: aquamarine;
+                position:left;
+                width: 200px;
+                height: 200px;
+                left: 20px;
+            }
+            .s3{
+                background-color:beige;
+                position: right;
+                width: 200px;
+                height:200px;
+                right: 20px;
+            }
+            .con{
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                /* width: 20px; */
+                background-color: aliceblue;
+            }
+            #p{
+                width: 300px;
+                height:20px;
+                /* background-color: aliceblue; */
+                margin:10px 10px;
+            }
+            @media (max-width:900px) {
+                .navbar{
+                    display: block;
+                    height: 300px;
+                    width: 300px;
+                    text-decoration: none;
+                    list-style: none;
+                    margin: 0px;
+                    left: 100px;
+                    /* display: list-item; */
+                }
+                .navbar li {
+                    display: list-item;
+                    padding: 10px;
+                    height: 10px;
+                    width: 800px;
+                    margin-top: 10px;
+                    text-decoration: none;
+                    /* width:100px; */ */
+                }
+                .navbar li a{
+                    display:block;
+                    padding: 5px;
+                    height: 50px;
+                    width: 200px;
+                    margin: 10px;
+                    text-decoration: none;
+                }
+            }
+    </style>
+    
+</head>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div id="con">Time is</div>
+        <img src="/public/Capture.PNG" width=100px alt="wait">
+        <div class="mid">
+            <ul class="navbar">
+                </span><li id=date></li>
+                <li><a href="/public/js events.html" class="active">Home</a></li>
+                <li><a href="/public/aboutus.html">About us</a></li>
+                <li><a href="/public/gymequipment.html">Fitness Equipment's</a></li>
+                <li><a href="/public/subscription.html">Subscription</a></li>
+                <li><a href="/public/contactus.html">Contact us</a></li>
+                <li><a href="/public/videos.html">videos</a></li>
+            </ul>
+       
+        <marquee>
+            You Are Awsome    <a href="https://pythondocumentationbyali.blogspot.com/2020/06/python-is-fun.html?spref=pi">   Go To My Python Blog</a>
+        </marquee>
+        <!-- <div class="sub"> -->
+        <!-- </div> -->
+        <!-- </div> -->
+         <!-- <div class="box" > -->
+             <!-- SCHEDULE YOUR DAY WITH US  -->
+    <!-- cdljnakjn -->
+    <!-- -<input type="text" id="can"> -->
+    <!-- <div class="box1"></div>
+    -<input type="checkbox"><input type="text" id="can" placeholder="Monday">
+    
+    <div class="box1" ></div>
+    
+    -<input type="checkbox"><input type="text" id="can" placeholder="Tuesday">
+    
+    <div class="box1"></div>
+    -<input type="checkbox"><input type="text" id="can"placeholder="Wednesday">
+    <div class="box1"></div>
+    -<input type="checkbox"><input type="text" id="can" placeholder="Thursday">
+    <div class="box1"></div>
+    -<input type="checkbox"><input type="text" id="can" placeholder="Friday">
+    <a>Saturday-Weekend Enjoy
+    Sunday-Weekend Enjoy</a>
+        <div class="center">
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, nam! Corporis esse perspiciatis libero doloribus assumenda error neque officia. Amet enim nam unde inventore harum hic debitis similique, et placeat mollitia provident neque magnam error deleniti? Esse sunt sapiente labore?</p>
+        <div id="cen"><button>show more</button>
+        </div>
+        </div> -->
+        <div id="left">
+            <a href="/public/writing pad.html" target="_blank_">Schedule</a><a>Your Day With Us</a>
+            <!-- dchbcjhsbjhcbdsjh -->
+            <div class="box1" ></div><div><br></div>
+            -<input type="checkbox"><input type="text" id="can" placeholder="Monday">  <br>
+            <div><br></div>
+            -<input type="checkbox"><input type="text" id="can" placeholder="Tuesday">
+    <div><br></div>
+    <div class="box1"></div>
+    -<input type="checkbox"><input type="text" id="can"placeholder="Wednesday">
+    <div class="box1"></div>
+    <div><br></div>
+    -<input type="checkbox"><input type="text" id="can" placeholder="Thursday">
+    <div class="box1"></div>
+    <div><br></div>
+    -<input type="checkbox"><input type="text" id="can" placeholder="Friday">
+    <div><br></div>
+    <a>Saturday-Weekend Enjoy
+    Sunday-Weekend Enjoy</a>
+        </div>
+        </div>
+        <div>
+            <!-- <h1>SUBSCRIPTION</h1> -->
+            <pre></pre><pre id="p">Subscription</pre>
+            <div class="s1">1
+                im, asperiores autem ratione aut suscipit nam velit, libero repudiandae at?
+                ------<button id ="h"><pre>Subscribe</pre></button></div>
+                <!-- <div class="con"> -->
+                <!-- <button id ="h"><pre>Subscribe</pre></button> -->
+            <!-- </div> -->
+                <!-- <button id ="h">Subscribe</button> -->
+        </div>
+          
